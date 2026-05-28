@@ -8,4 +8,4 @@ def read_root():
 
 @app.get("/sumar")
 def sumar(a: int, b: int):
-    return {"resultado": 2 + a + b}
+    return {"resultado": a + b}
