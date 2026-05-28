@@ -1,0 +1,14 @@
+titulo,rol,quiero,para,criterios_aceptacion,tareas_tecnicas
+Login de cliente,cliente,iniciar sesión,acceder a mi cuenta,"El usuario puede ingresar email y contraseña
+El sistema valida credenciales incorrectas
+El sistema redirige al dashboard si el login es correcto",Crear formulario de loginCrear endpoint POST /loginGuardar sesión o token
+Registro de cliente,cliente,crear una cuenta,comprar productos en la tienda,"El usuario puede ingresar nombre, email y contraseña
+El sistema valida que el email no esté repetido
+El sistema crea la cuenta correctamente","Crear formulario de registro
+Crear endpoint POST /register
+Guardar usuario en base de datos"
+Ver catálogo de productos,cliente,ver productos disponibles,elegir qué comprar,"El usuario puede ver una lista de productos
+El sistema muestra nombre, precio e imagen
+El usuario puede entrar al detalle de un producto","Crear página de catálogo
+Crear servicio para obtener productos
+Crear cards de producto"
